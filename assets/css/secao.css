@@ -1,0 +1,16 @@
+.secao {
+    display: grid;
+    gap: 16px;
+}
+
+.titulo-secao {
+    font-size: 2.5rem;
+}
+
+.secao-videos {
+    grid-area: secao-videos;
+}
+
+.secao-produtos {
+    grid-area: secao-produtos;
+}
