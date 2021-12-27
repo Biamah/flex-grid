@@ -9,25 +9,6 @@ body {
   color: #FFFFFF;
 }
 
-.principal {
-  padding: 24px 16px;
-  display: grid;
-  gap: 16px;
-}
-
-.titulo-pagina {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.titulo-secao {
-  font-size: 2.5rem;
-}
-.secao {
-  display: grid;
-  gap: 16px;
-}
-
 @media screen and (min-width: 1440px) {
   body {
     display: grid;
