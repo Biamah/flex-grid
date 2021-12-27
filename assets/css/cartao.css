@@ -69,6 +69,10 @@
   display: none;
 }
 
+.cartao__imagem--desktop {
+  display: none;
+}
+
 @media screen and (min-width: 1440px) {
   .cartao--recente {
     display: grid;
@@ -78,6 +82,7 @@
     width: 256px;
     padding: 16px;
     box-sizing: border-box;
+    align-self: flex-start;
   }
 
   .cartao--recente .cartao__titulo {
@@ -117,5 +122,22 @@
   .cartao__item-perfil {
     font-size: 0.8rem;
     color: #95999C;
+  }
+
+  .cartao__imagem--desktop {
+    display: block;
+  }
+
+  .cartao__imagem--mobile {
+    display: none;
+  }
+
+  .cartao--destaque {
+    margin-bottom: 0;
+  }
+
+  .cartao__botao--destaque {
+    grid-column: auto;
+    padding: 16px 8px;
   }
 }

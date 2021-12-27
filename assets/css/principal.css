@@ -7,27 +7,6 @@
 .titulo-pagina {
     font-size: 1.5rem;
     font-weight: 700;
-    grid-area: titulo-pagina;
-}
-  
-.destaque-video {
-    grid-area: destaque-video;
-}
-
-.destaque-produtos {
-    grid-area: destaque-produtos;
-}
-
-.videos-recentes {
-    grid-area: videos-recentes;
-}
-
-.produtos-recentes {
-    grid-area: produtos-recentes;
-}
-
-.secao-produtos {
-    grid-area: secao-produtos;
 }
 
 @media screen and (min-width: 1440px) {
@@ -44,5 +23,25 @@
         column-gap: 32px;
         padding: 16px 60px;
         grid-column: 2;
+    }
+
+    .destaque-video {
+        grid-area: destaque-video;
+    }
+    
+    .destaque-produtos {
+        grid-area: destaque-produtos;
+    }
+    
+    .videos-recentes {
+        grid-area: videos-recentes;
+    }
+    
+    .produtos-recentes {
+        grid-area: produtos-recentes;
+    }
+
+    .titulo-pagina {
+        grid-area: titulo-pagina;
     }
 }
